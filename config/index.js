@@ -15,9 +15,8 @@ export const config = {
 
   // 模版ID
   TEMPLATE_ID："g0344adWgZYKL0V0FQf2AseDVBCxBnfB6HintoiIukY"
-
   // 功能开关,打开：true，关闭：false
-  SWITCH: {
+  SWITCH: 
     /** 每日天气 */
     weather: true,
 
@@ -63,7 +62,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "g0344adWgZYKL0V0FQf2AseDVBCxBnfB6HintoiIukY",
       // 所在省份
       province: "江苏",
       // 所在城市

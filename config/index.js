@@ -1,8 +1,6 @@
 export const config = {
   /**
    * 公众号配置
-   */
-
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
@@ -12,18 +10,15 @@ export const config = {
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
   APP_SECRET: "5b470ce0d2e2632e50a7dbd5484bfb9b",
-
   // 模版ID
   TEMPLATE_ID："g0344adWgZYKL0V0FQf2AseDVBCxBnfB6HintoiIukY"
   // 功能开关,打开：true，关闭：false
   SWITCH: 
     /** 每日天气 */
     weather: true,
-
     /** 节假日 */
     // 下一休息日综合提醒
     holidaytts: true,
-
     /** 每日N句 */
     // 金山每日一句
     CIBA: true,
@@ -50,9 +45,6 @@ export const config = {
   // 每日一言的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
   LITERARY_PREFERENCE: "游戏",
-  
-
-  /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
   wechat: ["o1PRX696Jc_3_Q22L6fZdEe2sgfo"]
@@ -150,20 +142,14 @@ export const config = {
     // 你可以不断按格式往下增加
     // ...
   ],
-
-  /**
    * 信息配置
-   */
-
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
   PROVINCE: "广东",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
   CITY: "惠州",
-
   /** 重要节日相关 */
-
   /**
    * 重要节日，修改名字为对应需要显示的名字, date 仅填月日即可, 请严格按照示例填写
    * type必须填！ 只能 “生日” 和 “节日” 二选一!

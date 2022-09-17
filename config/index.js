@@ -12,9 +12,6 @@ export const config = {
   APP_SECRET: "5b470ce0d2e2632e50a7dbd5484bfb9b",
   // 模版ID
   TEMPLATE_ID："g0344adWgZYKL0V0FQf2AseDVBCxBnfB6HintoiIukY"
-  // 每日一言的内容类型
-  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: "游戏",
     {
       // 想要发送的人的名字
       name: "小李",

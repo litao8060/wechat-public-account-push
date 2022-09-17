@@ -56,7 +56,7 @@ export const config = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: ["o1PRX696Jc_3_Q22L6fZdEe2sgfo"]
+  wechat: ["o1PRX696Jc_3_Q22L6fZdEe2sgfo"]
     {
       // 想要发送的人的名字
       name: "小李",
